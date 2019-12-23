@@ -7,3 +7,4 @@ https://github.com/Annie-Huang/react_step_form
 C:\react>create-react-app react_step_form
 Or you can do C:\react\react_step_form>create-react-app .       << I didn't know you can do this way.
 
+C:\react\react_step_form>npm i material-ui
