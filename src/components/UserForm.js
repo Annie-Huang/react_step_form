@@ -37,11 +37,22 @@ class UserForm extends Component {
         const { firstName, lastName, email, occupation, city, bio } = this.state;
         // This way of writing code is a bit strange
         const values = { firstName, lastName, email, occupation, city, bio };
-        return (
-            <div>
-                
-            </div>
-        );
+        switch (step) {
+            case 1:
+                return (
+                    <FormUserDetails
+                        nextStep = {this.nextStep}
+                        handleChange = {this.handleChange}
+                        values = {values}
+                    />
+                );
+            case 2:
+                return <h1>FormPersonDetails</h1>;
+            case 3:
+                return <h1>Confirm</h1>;
+            case 4:
+                return <h1>Success</h1>;
+        }
     }
 }
 
