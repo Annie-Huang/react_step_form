@@ -2,6 +2,11 @@ https://www.youtube.com/watch?v=zT62eVxShsY
 https://github.com/bradtraversy/react_step_form
 https://github.com/Annie-Huang/react_step_form
 
+Not sure why this not woring??
+    C:\react\react_step_form>npm run start
+Have to run it as
+    C:\react\react_step_form>react-scripts start
+
 ==============================================================
 
 C:\react>create-react-app react_step_form

@@ -27,9 +27,16 @@ class UserForm extends Component {
         });
     };
 
-
+    // Handle fields change
+    handleChange = input => e => {
+        this.setState({[input]: e.target.value});
+    };
 
     render() {
+        const { step } = this.state;
+        const { firstName, lastName, email, occupation, city, bio } = this.state;
+        // This way of writing code is a bit strange
+        const values = { firstName, lastName, email, occupation, city, bio };
         return (
             <div>
                 
