@@ -2,10 +2,8 @@ https://www.youtube.com/watch?v=zT62eVxShsY
 https://github.com/bradtraversy/react_step_form
 https://github.com/Annie-Huang/react_step_form
 
-Not sure why this not woring??
-    C:\react\react_step_form>npm run start
-Have to run it as
-    C:\react\react_step_form>react-scripts start
+https://v3.material-ui.com/getting-started/installation/
+
 
 ==============================================================
 
@@ -14,3 +12,5 @@ Or you can do C:\react\react_step_form>create-react-app .       << I didn't know
 
 C:\react\react_step_form>npm i material-ui
 C:\react\react_step_form>npm uninstall material-ui
+
+C:\react\react_step_form>npm install @material-ui/core
